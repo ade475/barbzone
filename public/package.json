@@ -2,6 +2,18 @@
   "name": "barbzn",
   "version": "1.0.0",
   "description": "Men's Hair Website",
+  "engines": {
+    "node": "14.13.1",
+    "yarn": "1.22.5"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
   "main": "public/index.html",
   "repository": "",
   "author": "dayo adeniji <adenij229@gmail.com>",
