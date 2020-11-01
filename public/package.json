@@ -14,7 +14,7 @@
     "eject": "react-scripts eject"
   },
   "main": "public/index.html",
-  "repository": "",
+  "repository": "git@github.com:ade475/barbzone.git",
   "author": "dayo adeniji <adenij229@gmail.com>",
   "license": "MIT"
 }
