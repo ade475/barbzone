@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-/* line 3, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
 body {
   font-family: 'Raleway', sans-serif;
   padding: 0;
@@ -8,149 +7,126 @@ body {
   font-size: 14px;
 }
 
-/* line 9, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
 .message_submit_form:focus {
   outline: none;
 }
 
-/* line 12, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
 input:hover,
 input:focus {
   outline: none !important;
   box-shadow: 0px 0px 0px 0px transparent !important;
 }
 
-/* line 16, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
 .form-control:focus {
   box-shadow: 0 0 0 0rem transparent !important;
 }
 
-/* line 19, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
 .gray_bg {
   background-color: #f6f5f1;
 }
 
-/* line 22, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
 .form-row > .col,
 .form-row > [class*='col-'] {
   padding-right: 10px;
   padding-left: 10px;
 }
 
-/* line 26, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
 .section_padding {
   padding: 130px 0px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 26, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
   .section_padding {
     padding: 80px 0px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 26, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
   .section_padding {
     padding: 70px 0px;
   }
 }
 
 @media (max-width: 575px) {
-  /* line 26, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
   .section_padding {
     padding: 70px 0px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 26, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
   .section_padding {
     padding: 70px 0px;
   }
 }
 
-/* line 41, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
 .single_padding_top {
   padding-top: 140px !important;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 41, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
   .single_padding_top {
     padding-top: 70px !important;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 41, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
   .single_padding_top {
     padding-top: 70px !important;
   }
 }
 
 @media (max-width: 575px) {
-  /* line 41, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
   .single_padding_top {
     padding-top: 70px !important;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 41, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
   .single_padding_top {
     padding-top: 80px !important;
   }
 }
 
-/* line 56, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
 .padding_top {
   padding-top: 140px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 56, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
   .padding_top {
     padding-top: 80px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 56, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
   .padding_top {
     padding-top: 70px;
   }
 }
 
 @media (max-width: 575px) {
-  /* line 56, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
   .padding_top {
     padding-top: 70px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 56, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
   .padding_top {
     padding-top: 70px;
   }
 }
 
-/* line 71, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
 a {
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 74, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
 a:hover {
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 81, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
 h1,
 h2,
 h3,
@@ -161,7 +137,6 @@ h6 {
   font-family: 'Rufina', serif;
 }
 
-/* line 85, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
 p {
   font-family: 'Roboto', sans-serif;
   line-height: 1.929;
@@ -170,7 +145,6 @@ p {
   color: #777777;
 }
 
-/* line 93, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
 .Seed_spirit_replenish_cattle_one_moved_air_crea {
   font-size: 14px;
   font-family: 'Roboto';
@@ -184,7 +158,6 @@ p {
   z-index: 477;
 }
 
-/* line 109, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
 h2 {
   font-size: 44px;
   line-height: 28px;
@@ -194,7 +167,6 @@ h2 {
 }
 
 @media (max-width: 575px) {
-  /* line 109, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_common.scss */
   h2 {
     font-size: 22px;
     line-height: 25px;
@@ -6469,4 +6441,3 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
-ƒ
